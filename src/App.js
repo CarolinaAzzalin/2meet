@@ -1,25 +1,49 @@
-import logo from './logo.svg';
+import React, {useState} from "react";
+import { BrowserRouter } from 'react-router-dom';
+
 import './App.css';
+import Rotas from './Rotas';
+
+
+import Footer from "./Componentes/Footer/index.js";
+import Header from "./Componentes/header/index.js";
+import Login from "./Pages/Login";
+
+
+
 
 function App() {
+
+  // const [user, setUser] = useState(null);
+
+  // const actionLoginDataGoogle = async (u) => {
+  //   let newUser = {
+  //     id: u.uid,
+  //     name: u.displayName,
+  //     avatar: u.photoURL
+  //   }
+
+  //   setUser(newUser);
+  // }
+
+  // if(user === null){
+
+  //   return (
+  //     <Login onReceiveGoggle= {actionLoginDataGoogle}/>
+  //   );
+  // }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+    
+        <Header/>
+
+          <Rotas/>
+
+        <Footer />
+      
+    </BrowserRouter>
+  )
 }
 
 export default App;
