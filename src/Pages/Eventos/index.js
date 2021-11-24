@@ -6,28 +6,28 @@ import Card from "../../Componentes/Card"
 const eventos = [
     {
         title: "Festa do Livro",
-        category: "Diurno",
+        category: "Evento Externo",
         picURL: "../../../livro.jpg",
         description: "Bem vindo ao melhor evento da cidade. Não se preocupe com alimentação ou segurança.",
         time: "25/03/2022"
     },
     {
         title: "Bienal do automóvel",
-        category: "Restaurante",
+        category: "Exposições",
         picURL: "../../../automovel.jpg",
         description: "Bem vindo ao melhor evento da cidade. Não se preocupe com alimentação ou segurança.",
         time: "17/09/2022"
     },
     {
         title: "Jubileu de agosto",
-        category: "Bar",
+        category: "Evento Externo",
         picURL: "../../../jubileu.jpg",
         description: "Bem vindo ao melhor evento da cidade. Não se preocupe com alimentação ou segurança.",
         time: "25/08/2022"
     },
     {
         title: "Festa do milho",
-        category: "Bar",
+        category: "Evento Externo",
         picURL: "../../../milho.jpg",
         description: "Bem vindo ao melhor evento da cidade. Não se preocupe com alimentação ou segurança.",
         time: "25/03/2022"
