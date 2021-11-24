@@ -5,32 +5,32 @@ import Card from "../../Componentes/Card"
 
 const eventos = [
     {
-        title: "Bar do Maurício",
-        category: "Bar",
-        picURL: "../../../logo.png",
-        description: "Melhor bar e restaurante da cidade. Servimos cerveja gelada e os mais incríveis petiscos, ao melhor preço. Venha conhecer!",
-        time: "13h às 16h"
+        title: "Festa do Livro",
+        category: "Diurno",
+        picURL: "../../../livro.jpg",
+        description: "Bem vindo ao melhor evento da cidade. Não se preocupe com alimentação ou segurança.",
+        time: "25/03/2022"
     },
     {
-        title: "Restaurante do Jeremias",
+        title: "Bienal do automóvel",
         category: "Restaurante",
-        picURL: "../../../logo.png",
-        description: "Melhor bar e restaurante da cidade. Servimos cerveja gelada e os mais incríveis petiscos, ao melhor preço. Venha conhecer!",
-        time: "14h às 20h"
+        picURL: "../../../automovel.jpg",
+        description: "Bem vindo ao melhor evento da cidade. Não se preocupe com alimentação ou segurança.",
+        time: "17/09/2022"
     },
     {
-        title: "Bar do Agustinho",
+        title: "Jubileu de agosto",
         category: "Bar",
-        picURL: "../../../logo.png",
-        description: "Melhor bar e restaurante da cidade. Servimos cerveja gelada e os mais incríveis petiscos, ao melhor preço. Venha conhecer!",
-        time: "18h às 00h"
+        picURL: "../../../jubileu.jpg",
+        description: "Bem vindo ao melhor evento da cidade. Não se preocupe com alimentação ou segurança.",
+        time: "25/08/2022"
     },
     {
-        title: "Reinaldo Butiquim",
+        title: "Festa do milho",
         category: "Bar",
-        picURL: "../../../logo.png",
-        description: "Melhor bar e restaurante da cidade. Servimos cerveja gelada e os mais incríveis petiscos, ao melhor preço. Venha conhecer!",
-        time: "12h às 18h"
+        picURL: "../../../milho.jpg",
+        description: "Bem vindo ao melhor evento da cidade. Não se preocupe com alimentação ou segurança.",
+        time: "25/03/2022"
     }
 ];
 

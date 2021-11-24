@@ -31,6 +31,9 @@ body{
 
 .ui.card img {
   min-height: 150px;
+  max-height: 250px;
+  width: 400px;
+  
 }
 
 .ui.card:first-child {
