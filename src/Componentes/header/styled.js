@@ -6,6 +6,7 @@ export const AreaHeader = styled.div`
     height: 60px;
     background-color: #9b2d1f;
     color: #fff;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 
     .container{
         padding: 7px 20px;
