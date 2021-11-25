@@ -1,6 +1,42 @@
 body{
-  margin: 0;
+  margin-bottom: 0;  
   font-family: sans-serif ;
   background-color:white;
+  min-height: 100vh;
 
 }
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title-container i {
+  font-size: 30px;
+  padding: 20px 20px;
+  color: #9b2d1f;  
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.ui.card {
+  margin: 20px 20px;
+  height: 420px;
+}
+
+.ui.card img {
+  min-height: 150px;
+  max-height: 250px;
+  width: 400px;
+  
+}
+
+.ui.card:first-child {
+  margin-top: 20px;
+}
+
