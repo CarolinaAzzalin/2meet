@@ -36,5 +36,6 @@
   - npm install react-router-dom@6.0.2
   - npm install styled-components@5.3.3
   - npm install firebase@9.4.1
+  - npm install @material-ui/core @material-ui/icons 
   - npm start
 
