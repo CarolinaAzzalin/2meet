@@ -5,7 +5,10 @@ import { BtnDefautIcons, BtnDefaut } from '../../Componentes/style';
 
 import Api from '../../Api';
 
-import FacebookIcon from '@material-ui/icons/Facebook'
+import FacebookIcon from '@material-ui/icons/Facebook';
+import MailIcon from '@material-ui/icons/Mail';
+
+
 
 
 
@@ -58,7 +61,7 @@ export default ({ onReceiveGoggle }) => {
                 <div className="centerface">Entre com Facebook</div>
             </BtnDefautIcons>
             <BtnDefautIcons onclick={actionLoginGoogle}>
-                <FacebookIcon />
+                <MailIcon />
                 <div className="centergmail">Entre com Gmail</div>
             </BtnDefautIcons>
 
