@@ -1,8 +1,8 @@
 <h1 align="center"> 2MEET </h1>
 
-<p align="justify"> O app para encontrar os melhores eventos e estabelecimentos! </p>
+<p align="center"> O app para encontrar os melhores Eventos e Estabelecimentos! </p>
 
-### Cadastro e login no app 2MEET :computer:
+## Cadastro e login no app 2MEET :computer:
 
 - Cadastro de conta no app
   - Cadastro utilizando faceebook e google;
@@ -16,7 +16,7 @@
 
 :beers: Página com todos os eventos adicionados com o link para compra de ingressos
 
-:spaghetti: Páginas com todos os estabelecimentos com o link do instagram
+:spaghetti: Página com todos os estabelecimentos com o link do instagram
 
 :arrow_left: Opção de sair, para realizar o logout do app
 
@@ -25,6 +25,14 @@
 
 ## Dependências utilizadas
 - Instalações:
-  - react-router-dom;
-  - styled-components;
-  - firebase;
+  - react-router-dom (v. 6.0.2)
+  - styled-components (v. 5.3.3)
+  - firebase (v. 9.4.1)
+  - react (v. 17.0.2)
+  
+ 
+ ## Para rodar:
+- Comandos:
+  - npm install
+  - npm start
+
