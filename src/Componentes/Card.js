@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({picURL, title, category, description, time}) => {
+const Card = ({picURL, title, category, description, time,instURL}) => {
     return (
         <div class="ui card">
             <div className="image">
@@ -14,6 +14,10 @@ const Card = ({picURL, title, category, description, time}) => {
                 <div className="description">
                 {description}
                 </div>
+                <a>
+                <i className="instagram"></i>
+                {instURL}
+                </a>
             </div>
             <div className="extra content">
                 <a>

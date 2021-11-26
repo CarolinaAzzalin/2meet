@@ -30,12 +30,12 @@ export const BtnDefautIcons = styled.button`
 
 export const BtnDefaut = styled.button`
     display: inline;
-    background-color: #7d2ae8;
+    background-color: #fffff;
     color: #fff;
     text-align: center;
     align-items: center;
     width: 100%;
-    boder-radius: 5px;
+    boder-radius: 100px;
     border: 0px;
     outline: none;
     font-size: 17px;
@@ -45,7 +45,7 @@ export const BtnDefaut = styled.button`
    
 
     &:hover{
-        background-color: #4e129c;
+        background-color: #eeeeee;
     }
 
 

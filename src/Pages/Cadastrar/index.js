@@ -28,6 +28,9 @@ export default () => {
                     <label>Senha</label>
                     <input type="password" />
                 </div>
+                <div>
+                    <p></p>
+                </div>
 
 
                 <BtnDefaut>

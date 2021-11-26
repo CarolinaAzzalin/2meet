@@ -59,12 +59,12 @@ export const AreaLogin = styled.div`
         a{
             font-weight: bold;
             margin-left: 5px;
-            color:#4e129c;
+            color:c#4e129;
             transition: 0,4s;
             cursor: pointer;
 
             &:hover{
-                color: #7d2ae8;
+                color: #fffff;
             }
         }
     }

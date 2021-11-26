@@ -27,12 +27,14 @@ body{
 .ui.card {
   margin: 20px 20px;
   height: 420px;
+  
 }
 
 .ui.card img {
-  min-height: 150px;
   max-height: 250px;
-  width: 400px;
+  max-width:300px;
+  height: auto;
+  width: auto;
   
 }
 
